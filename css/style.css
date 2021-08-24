@@ -1,0 +1,37 @@
+.header1{
+    background-color: #f65935;
+    height: 75px;
+    width: 100%;
+    font-weight: 700px;
+  
+}
+
+.icon-color{
+    color: white;
+}
+/* navbar style  */
+.nav-space{
+    margin-top: -20px;
+}
+/* slide styles */
+.slide-adjust{
+    height: 750px;
+}
+.slide-text{
+    text-align: right;
+}
+.slide-text3{
+    color: black;
+}
+.header2{
+    height: 200px;
+    background-color: lightgrey;
+}
+.header2 p{
+}
+
+/* body  */
+/* development part  */
+.red-text{
+    color: indianred;
+}

@@ -15,7 +15,7 @@
 }
 /* slide styles */
 .slide-adjust{
-    height: 750px;
+    height: 700px;
 }
 .slide-text{
     text-align: right;
@@ -27,6 +27,7 @@
     height: 200px;
     background-color: lightgrey;
 }
+
 .header2 p{
 }
 
@@ -34,4 +35,15 @@
 /* development part  */
 .red-text{
     color: indianred;
+}
+
+/* introduction style  */
+.intro{
+    height: 394px;
+    width: 700px;
+    background: blue;
+}
+
+.img-video:hover img{
+  
 }

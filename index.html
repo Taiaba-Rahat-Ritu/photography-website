@@ -85,12 +85,11 @@
                                         <a class="nav-link disabled" href="#" tabindex="-1"
                                             aria-disabled="true">Link</a>
                                     </li>
-                                </ul>
-                                <form class="d-flex">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
+                                </ul> 
+                                <button
+                                    style="margin: 10px; padding: 10px; border-radius: 8px; background-color: indianred; color: white;">Log
+                                    in</button>
+                               
                             </div>
                         </div>
                     </nav>
@@ -174,9 +173,9 @@
         </section>
     </header>
 
-    <!-- body -->
+    <!-- main -->
 
-    <body>
+    <main>
         <!-- 01 Development -->
         <section class="container my-5">
             <div>
@@ -191,7 +190,7 @@
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <div class="card h-100">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="Images/card1.jpg" class="card-img-top card-img" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title red-text">Special Collabration</h5>
                                     <p class="card-text text-muted">This is a longer card with supporting text below as
@@ -202,7 +201,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="Images/card2.jpg" class="card-img-top card-img" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title red-text">Supportive Speaches</h5>
                                     <p class="card-text text-muted">This is a short card.</p>
@@ -211,7 +210,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="Images/card3.jpg" class="card-img-top card-img" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title red-text"> Motivation Mettings</h5>
                                     <p class="card-text text-muted">This is a longer card with supporting text below as
@@ -230,8 +229,8 @@
         <!-- 02 introduction -->
         <section class="container d-flex my-5">
             <div class="img-video">
-                <img src="images/video-hover.jpg" alt="" height="394px" width="700px">
-                <video src="videos/video1.mp4" width="700px" controls></video>
+                <img class="img-hvr" src="images/video-hover.jpg" alt="" height="394px" width="700px">
+                <video class="vdo-hvr" src="videos/video1.mp4" width="700px" controls autoplay muted></video>
 
             </div>
             <div class="intro text-white align-items-center px-5 py-3">
@@ -251,8 +250,85 @@
         </section>
         <!-- 02 introduction end -->
 
+        <!-- 03 feature -->
+        <section class="container">
+            <div class=" ">
+                <div class=" my-5">
+                    <h4 class=" d-flex justify-content-center">03</h4>
+                    <h1 class=" d-flex justify-content-center"><span class="red-text">Features</span></h1>
+                    <h3 class="text-muted  d-flex justify-content-center">You should at least attempt to protect the
+                    </h3>
+                    <h3 class="text-muted  d-flex justify-content-center">accident scene however you can.</h3>
+                </div>
+                <div class=" d-flex justify-content-center">
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 03 feature end  -->
 
-    </body>
+        <!-- 04 Projects -->
+        <section class="container ">
+            <div class="mb-5">
+                <h4>04</h4>
+                <h1><span class="red-text">Projects</span></h1>
+                <h3 class="text-muted">You will likely need proof to show your insurance company</h3>
+            </div>
+            <div class="image-zoom-container">
+                <div class="zoom-container">
+                    <a href="#">
+                        <span class="zoom-caption">
+                            <h3>Costa Rica</h3>
+                        </span>
+                        <img src="images/card1.jpg" />
+                    </a>
+                </div>
+                <!--/.zoom-container-->
+                <div class="zoom-container">
+                    <a href="#">
+                        <span class="zoom-caption">
+                            <h3>Bavaria</h3>
+                        </span>
+                        <img src="images/bavaria-001.jpg" />
+                    </a>
+                </div>
+                <!--/.zoom-container-->
+                <div class="zoom-container">
+                    <a href="#">
+                        <span class="zoom-caption">
+                            <h3>Firenza</h3>
+                        </span>
+                        <img src="images/firenza-001.jpg" />
+                    </a>
+                </div>
+                <!--/.zoom-container-->
+                <div class="zoom-container">
+                    <a href="#">
+                        <span class="zoom-caption">
+                            <h3>Firenza</h3>
+                        </span>
+                        <img src="images/firenza-001.jpg" />
+                    </a>
+                </div>
+            </div>
+            <!--/.image-zoom-container-->
+        </section>
+        <!-- 04 Projects end -->
+    </main>
     <!-- javascript -->
     <script src="js/bootstrap.bundle.min.js"></script>
 
